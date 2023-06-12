@@ -1,0 +1,17 @@
+{
+  "name": "jackery-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs --port 3001",
+    "deploy": "bash deploy.sh",
+    "clog": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-beta.1",
+    "vue": "^3.2.45"
+  }
+}
