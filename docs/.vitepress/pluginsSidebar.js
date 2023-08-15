@@ -2,19 +2,19 @@ const commonPath = '/plugins';
 
 export default [
     {
-        text: 'Chrome 插件',
-        collapsible: true,
-        collapsed: false,
-        items: [
-            { text: 'Test', link: `${commonPath}/chrome/test.md` },
-        ]
-    },
-    {
         text: 'Vite 插件',
         collapsible: true,
         collapsed: false,
         items: [
-            { text: 'Test', link: `${commonPath}/vite/test.md` },
+            { text: 'dev-qrcode', link: `${commonPath}/vite/dev-qrcode.md` },
+        ]
+    },
+    {
+        text: 'Babel 插件',
+        collapsible: true,
+        collapsed: false,
+        items: [
+            { text: 'Test', link: `${commonPath}/babel/test.md` },
         ]
     },
     {
@@ -24,5 +24,13 @@ export default [
         items: [
             { text: 'Test', link: `${commonPath}/vscode/test.md` },
         ]
-    }
+    },
+    {
+        text: 'Chrome 插件',
+        collapsible: true,
+        collapsed: false,
+        items: [
+            { text: 'Test', link: `${commonPath}/chrome/test.md` },
+        ]
+    },
 ]

@@ -7,14 +7,14 @@ titleTemplate: Frontend Docs
 hero:
   name: JACKERY
   text: Frontend Docs
-  tagline: Rules, Components, Plugins, Utilities...
+  tagline: Rules, Unocss, Utilities, Performance, Plugins...
   actions:
     - theme: brand
       text: Get Started
-      link: /docs/
+      link: /standard/
     - theme: alt
       text: View on Gitlab
-      link: http://192.168.30.241/wangming/jackery-docs
+      link: http://192.168.30.241/jackery-alone/jackery-docs
 
 features:
   - title: "Vite: The DX that can't be beat"

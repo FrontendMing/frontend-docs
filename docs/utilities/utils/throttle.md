@@ -1,15 +1,15 @@
 # throttle 方法
 > 节流
 
-### throttle参数列表
+## 参数列表
 
 | 参数      | 说明        | 类型      | 默认值   |
 | :---------|:------------| :---------| :-------|
 | func      | 节流的函数   | function  | -       |
 | wait      | 节流时间     | number    | 0       |
 
-#### 例子
 
+## 使用示例
 ```js
 import { throttle, } from '@vantop/vantop-util'
 

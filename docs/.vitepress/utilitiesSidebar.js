@@ -6,6 +6,10 @@ export default [
         link: `${commonPath}/index.md`,
     },
     {
+        text: 'Getting Started',
+        link: `${commonPath}/start.md`,
+    },
+    {
         text: '工具函数库',
         collapsible: true,
         collapsed: false,
@@ -22,7 +26,10 @@ export default [
         collapsible: true,
         collapsed: false,
         items: [
+            { text: 'SimpleSwiper', link: `${commonPath}/classes/SimpleSwiper.md` },
             { text: 'DragToMove', link: `${commonPath}/classes/DragToMove.md` },
+            { text: 'ValidateForm', link: `${commonPath}/classes/ValidateForm.md` },
+            { text: 'Websocket', link: `${commonPath}/classes/Websocket.md` },
         ]
     },
 ]

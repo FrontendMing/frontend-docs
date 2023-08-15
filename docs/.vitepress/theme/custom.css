@@ -17,3 +17,6 @@
     --vp-custom-block-tip-text: var(--vp-c-brand);
     --vp-custom-block-tip-bg: #FCEEE8;
 }
+.main img{
+    border: 1px solid #ddd;
+}
