@@ -170,7 +170,7 @@ export default defineConfig({
             w-full top-0 px-40 text-72 leading-80
             lg:j-top-244 lg:j-w-1080 lg:j-px-0 lg:j-text-70 lg:j-leading-78
         "
-    >Join Jackery Stories as a<br/>Storyteller!</h2>
+    >Join Stories as a<br/>Storyteller!</h2>
 </section>
 ```
 ### 解析：  

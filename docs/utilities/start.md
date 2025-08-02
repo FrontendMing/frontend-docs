@@ -1,5 +1,5 @@
 # 开始
-> 为了更好的规范和缩短开发流程，我们将用 jackery-cli 来辅助开发
+> 为了更好的规范和缩短开发流程，我们将用 frontend-cli 来辅助开发
 
 
 :::tip
@@ -7,13 +7,13 @@
 :::
 
 ## 使用方法
-### 第一步：对 jackery-util 目录下，执行 npm init jackery 命令
+### 第一步：对 frontend-util 目录下，执行 npm init frontend 命令
 
 ```shell
-$ cd jackery-util
-$ npm init jackery
+$ cd frontend-util
+$ npm init frontend
   Need to install the following packages:
-  create-jackery
+  create-frontend
   Ok to proceed? (y)
 ```
 
@@ -30,7 +30,7 @@ $ npm init jackery
 
 ? 请选择项目： (Use arrow keys)
   --- 基础建设 ---
-❯ Jackery Util
+❯ Frontend Util
 
 ```
 

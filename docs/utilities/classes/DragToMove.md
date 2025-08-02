@@ -22,7 +22,7 @@ new DragToMove({
         x: 10,
         y: '40%',
     },
-    onClick: () => window.open('https://www.jackery.com'),
+    onClick: () => window.open('https://www.baidu.com'),
     closable: true,
     closableEl: '#close-btn',
     closedCallback: () => {

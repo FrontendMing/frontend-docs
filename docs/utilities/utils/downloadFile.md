@@ -16,6 +16,6 @@ downloadFile(url)
 
 ## 使用示例
 ```js
-downloadFile('https://demo-r.jackery.net/productGuide/Dubbo分布式服务治理实战.pdf');
+downloadFile('https://baidu.com/test.pdf');
 ```
 

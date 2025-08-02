@@ -1,11 +1,11 @@
 ---
 layout: home
 
-title: Jackery
+title: Frontend
 titleTemplate: Frontend Docs
 
 hero:
-  name: JACKERY
+  name: FRONTEND
   text: Frontend Docs
   tagline: Rules, Unocss, Utilities, Performance, Plugins...
   actions:
@@ -14,7 +14,7 @@ hero:
       link: /standard/
     - theme: alt
       text: View on Gitlab
-      link: http://192.168.30.241/jackery-alone/jackery-docs
+      link: https://github.com/FrontendMing/frontend-docs
 
 features:
   - title: "Vite: The DX that can't be beat"

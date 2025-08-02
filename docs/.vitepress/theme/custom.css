@@ -7,6 +7,8 @@
     --vp-home-hero-name-color: transparent;
     --vp-home-hero-name-background: linear-gradient( -135deg, #FD5000 50%, #ff0000 100%);
 
+    --vp-button-brand-bg: var(--vp-c-brand);
+
     --vp-button-brand-hover-border: var(--vp-c-brand);
     --vp-button-brand-hover-bg: #FD3B00;
 

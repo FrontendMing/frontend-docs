@@ -9,11 +9,11 @@ import performanceSidebar from "./performanceSidebar";
 export default {
     base: '/',
 
-    title: 'JACKERY', // 所有文档的浏览器标签title
-    description: 'Jackery Frontend Docs', // 会渲染成<meta>标签，SEO用
+    title: 'Frontend', // 所有文档的浏览器标签title
+    description: 'Frontend Docs', // 会渲染成<meta>标签，SEO用
 
     themeConfig: {
-        siteTitle: 'JACKERY DOCS',
+        siteTitle: 'FRONTEND DOCS',
         logo: '/logo.png',
         head: [
             ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
@@ -21,7 +21,7 @@ export default {
         nav: [
             { text: '前端规范', link: '/standard/', activeMatch: '/standard/' },
             {
-                text: 'Jackery 官网',
+                text: '官网',
                 items: [
                     { text: '响应式方案', link: '/website/responsive' },
                     {
@@ -81,11 +81,11 @@ export default {
             '/performance/': performanceSidebar,
         },
         socialLinks: [
-            { icon: 'github', link: 'http://192.168.30.241/jackery-alone/jackery-docs' }
+            { icon: 'github', link: 'https://www.github.com/frontendMing/frontend-docs' }
         ],
         footer: {
             message: 'Released under the MIT License.',
-            copyright: 'Copyright © 2023-present jackery'
+            copyright: 'Copyright © 2023-present frontend'
         },
     },
     srcExclude: ['README.md'], // exclude the README.md , needn't to compiler

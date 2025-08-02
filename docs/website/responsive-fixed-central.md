@@ -220,7 +220,7 @@ export default defineConfig({
             lg:j-top-244 lg:j-w-1080 lg:j-px-0 lg:j-text-70 lg:j-leading-78
             xl:a-top-244 xl:a-w-1080 xl:a-px-0 xl:a-text-70 xl:a-leading-78
         "
-    >Join Jackery Stories as a<br/>Storyteller!</h2>
+    >Join Stories as a<br/>Storyteller!</h2>
 </section>
 ```
 ### 解析：  
